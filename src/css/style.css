@@ -35,6 +35,7 @@ table {
 }
 
 table th, table td {
+    width: 33.33%;
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
@@ -87,7 +88,11 @@ h3 {
     margin-bottom: 10px;
 }
 
-a {
+.duvidas {
+    margin-top: 20px;
+}
+
+.duvidas a {
     margin-top: 20px;
     color: #fff;
     text-decoration: none;
