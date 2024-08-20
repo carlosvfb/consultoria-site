@@ -45,6 +45,17 @@ table thead {
     background-color: #f4f4f4;
 }
 
+td a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+td a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+
 .pix-container {
     margin-top: 10px;
     display: flex;
