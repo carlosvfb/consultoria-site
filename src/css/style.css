@@ -53,6 +53,27 @@ table thead {
     background-color: #f4f4f4;
 }
 
+td.agende div {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+td.agende i {
+    font-size: 16px;
+    animation: moveArrow 1s infinite alternate ease-in-out;
+}
+
+@keyframes moveArrow {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(4px);
+    }
+}
+
 td a {
     color: #333;
     text-decoration: none;
