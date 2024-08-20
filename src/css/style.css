@@ -142,6 +142,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 30px;
 }
 
 .duvidas a {
@@ -159,4 +160,8 @@ h3 {
     gap: 10px;
 }
 
-
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+}
