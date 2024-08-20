@@ -160,7 +160,7 @@ h3 {
     gap: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .footer {
         flex-direction: column;
     }
